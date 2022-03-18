@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ivansolutions.conceptosbasicos;
 
-/**
- *
- * @author doomslayer1945
- */
+package ivansolutions.conceptosbasicos;
+import ivansolutions.conceptosbasicos.lenovo.procesador;
+
+
 public class conceptosbasicos {
-    
+    public static void main(String[] args) {
+        procesador cpu = new procesador("amd", 3.6f,"rizen 5");
+        System.out.println(cpu);
+    }
 }
