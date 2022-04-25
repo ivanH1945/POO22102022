@@ -29,8 +29,9 @@ public class PruebaEjemplo {
             int respuesta = sc.nextInt();
            switch (respuesta) {
                case 1:
-                   for (int i =0; i < arr.length; i++) {
-                       System.out.println(arr[i]);
+                   for (Object array : arr) {
+                       Cuentahabiente ca = (Cuentahabiente)array;
+                       System.out.println(ca);
                    }
 
                    
